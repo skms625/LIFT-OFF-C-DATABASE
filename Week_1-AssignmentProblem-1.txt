@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+
+        int a,b;
+        printf("Enter any two numbers : \n");
+        scanf(" %d %d ", &a, &b );
+
+        int s, d, p, i, r ;
+
+        s = a + b ;
+        d = a - b ;
+        p = a * b ;
+        i = a / b ;
+        r = a % b ;
+
+        printf("The sum of the two numbers is : %d \n" , s );
+        printf("The difference of the two numbers is : %d \n" , d);
+        printf("The product of the two numbers is : %d \n" , p);
+        printf("The division of the two numbers is : %d \n" , i);
+        printf("The remainder when a divides b is : %d \n" , r);
+
+return 0;
+//Code written by -Sai Kiranman Singh
+}
